@@ -66,4 +66,3 @@ public sealed class WeightedTable
         return lower;
     }
 }
-

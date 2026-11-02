@@ -32,4 +32,3 @@ if (SecureRandom.NextString(8, "x") != "xxxxxxxx")
     throw new InvalidOperationException("Secure alphabet selection failed.");
 }
 Console.WriteLine("Raw vector, state replay, shuffle, bounded sampling, weighted table and platform source passed.");
-

@@ -27,4 +27,3 @@
     <InternalsVisibleTo Include="BenScr.Random.Tests" />
   </ItemGroup>
 </Project>
-

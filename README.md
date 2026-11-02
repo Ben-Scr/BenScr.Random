@@ -50,4 +50,3 @@ pwsh -File tools/VerifyConsumer.ps1 -Published
 Verification builds and formats the library/tests/example, compares the public API baseline, runs contract tests on both frameworks, audits the exact package and symbols, and executes a consumer using only PackageReference and an empty cache. Windows and Linux CI repeat the checks. Fixed raw vectors, exact rejection boundaries, full integer spans, floating extremes, state replay and weighted ticket partitions provide deterministic regression coverage. Secure-source tests assert contracts without probabilistic frequency gates.
 
 See [migration](https://github.com/Ben-Scr/BenScr.Random/blob/master/MIGRATION.md), [algorithm](https://github.com/Ben-Scr/BenScr.Random/blob/master/docs/ALGORITHM.md), [provenance](https://github.com/Ben-Scr/BenScr.Random/blob/master/docs/PROVENANCE.md) and [release procedure](https://github.com/Ben-Scr/BenScr.Random/blob/master/RELEASE.md).
-

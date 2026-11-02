@@ -74,8 +74,3 @@ try {
     $env:NUGET_PACKAGES = $previousPackages
     $env:NUGET_HTTP_CACHE_PATH = $previousHttpCache
 }
-
-
-
-
-

@@ -11,5 +11,3 @@
     <ProjectReference Include="../src/BenScr.Random.csproj" />
   </ItemGroup>
 </Project>
-
-

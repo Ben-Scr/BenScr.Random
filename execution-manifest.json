@@ -2,7 +2,7 @@
   "schema_version": 1,
   "package_id": "BenScr.Random",
   "version": "1.0.0",
-  "status": "implementation_tests_passed",
+  "status": "tested_local",
   "source_repository": "https://github.com/Ben-Scr/RandomCS",
   "source_commit": "8d2a40f680e26c1bf235d72ca59dede9c6e59738",
   "repository": "https://github.com/Ben-Scr/BenScr.Random",
@@ -18,5 +18,6 @@
     "net10": 57,
     "net9": 57,
     "skipped": 0
-  }
+  },
+  "package_validation": "Exact archives, API baseline, PDB Source Link, example and both isolated local-feed consumers passed; CI and publication tracked separately."
 }

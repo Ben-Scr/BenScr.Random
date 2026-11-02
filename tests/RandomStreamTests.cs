@@ -274,4 +274,3 @@ public sealed class RandomStreamTests
         Assert.Equal(saved, random.CaptureState());
     }
 }
-

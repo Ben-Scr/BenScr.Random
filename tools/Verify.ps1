@@ -66,6 +66,3 @@ try {
     $output | Set-Content -LiteralPath artifacts/latest-verification.txt -Encoding utf8
     Write-Output "Verified artifacts: $output"
 } finally { Pop-Location }
-
-
-

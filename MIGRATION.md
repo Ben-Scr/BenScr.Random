@@ -37,5 +37,3 @@ Source: public `Ben-Scr/RandomCS`, branch `master`, commit `8d2a40f680e26c1bf235
 - Secure integer/byte mapping delegates to the platform's discard-and-retry implementation, replacing biased modulo arithmetic and fixing wide-range support.
 
 The original tests' seed, range, zero-state, strings and generic-dispatch scenarios are mapped to typed regression tests. Probabilistic frequency tests are replaced by fixed vectors, exact ticket/rejection boundaries and invariant checks. New tests cover state restoration, extreme floats, weighted selection, shuffle ownership and platform source boundaries. The existing solution is renamed BenScr.Random.sln locally and ignored; builds and CI use explicit project files. Legacy icons remain historical assets, while packages embed only the common logo.
-
-
