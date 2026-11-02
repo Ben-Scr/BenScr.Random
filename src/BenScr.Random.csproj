@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net9.0;net10.0</TargetFrameworks>
+    <PackageId>BenScr.Random</PackageId>
+    <AssemblyName>BenScr.Random</AssemblyName>
+    <RootNamespace>BenScr.Random</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>Ben Schneider</Authors>
+    <Description>Versioned deterministic random streams, rejection-based bounded sampling, shuffling, exact integer-weighted tables and platform secure randomness.</Description>
+    <PackageTags>random;deterministic;sampling;shuffle;weighted</PackageTags>
+    <PackageProjectUrl>https://github.com/Ben-Scr/BenScr.Random</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Ben-Scr/BenScr.Random</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+    <None Include="../LICENSE.txt" Pack="true" PackagePath="/" />
+    <None Include="../branding/BenScr_Icon_Master.png" Pack="true" PackagePath="/icon.png" />
+    <InternalsVisibleTo Include="BenScr.Random.Tests" />
+  </ItemGroup>
+</Project>
+

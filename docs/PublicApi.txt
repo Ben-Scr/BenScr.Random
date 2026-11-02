@@ -1,0 +1,53 @@
+BenScr.Random.RandomStream : System.Object
+  Constructor Void .ctor()
+  Constructor Void .ctor(UInt64)
+  Field Int32 MaximumStringLength
+  Field System.String AlgorithmId
+  Field UInt64 ZeroSeedState
+  Method Boolean NextBoolean()
+  Method Byte NextByte()
+  Method Byte NextByte(Byte)
+  Method Byte NextByte(Byte, Byte)
+  Method Double NextDouble()
+  Method Double NextDouble(Double)
+  Method Double NextDouble(Double, Double)
+  Method Int32 NextInt32()
+  Method Int32 NextInt32(Int32)
+  Method Int32 NextInt32(Int32, Int32)
+  Method Single NextSingle()
+  Method Single NextSingle(Single)
+  Method Single NextSingle(Single, Single)
+  Method System.String NextString(Int32, System.String)
+  Method T Choose[T](System.ReadOnlySpan`1[T])
+  Method UInt64 CaptureState()
+  Method UInt64 NextUInt64()
+  Method UInt64 NextUInt64(UInt64)
+  Method Void FillBytes(System.Span`1[System.Byte])
+  Method Void Reseed()
+  Method Void RestoreState(UInt64)
+  Method Void SetSeed(UInt64)
+  Method Void Shuffle[T](System.Span`1[T])
+BenScr.Random.SecureRandom : System.Object
+  Field Int32 MaximumStringLength
+  Method Boolean NextBoolean()
+  Method Byte NextByte()
+  Method Byte NextByte(Byte)
+  Method Byte NextByte(Byte, Byte)
+  Method Double NextDouble()
+  Method Double NextDouble(Double)
+  Method Double NextDouble(Double, Double)
+  Method Int32 NextInt32()
+  Method Int32 NextInt32(Int32)
+  Method Int32 NextInt32(Int32, Int32)
+  Method Single NextSingle()
+  Method Single NextSingle(Single)
+  Method Single NextSingle(Single, Single)
+  Method System.String NextString(Int32, System.String)
+  Method Void FillBytes(System.Span`1[System.Byte])
+BenScr.Random.WeightedTable : System.Object
+  Constructor Void .ctor(System.ReadOnlySpan`1[System.UInt64])
+  Method Int32 Sample(BenScr.Random.RandomStream)
+  Method Int32 get_Count()
+  Method UInt64 get_TotalWeight()
+  Property Int32 Count
+  Property UInt64 TotalWeight

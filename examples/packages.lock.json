@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net10.0": {
+      "benscr.random": {
+        "type": "Project"
+      }
+    },
+    "net9.0": {
+      "benscr.random": {
+        "type": "Project"
+      }
+    }
+  }
+}

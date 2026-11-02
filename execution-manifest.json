@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "package_id": "BenScr.Random",
+  "version": "1.0.0",
+  "status": "implementation_tests_passed",
+  "source_repository": "https://github.com/Ben-Scr/RandomCS",
+  "source_commit": "8d2a40f680e26c1bf235d72ca59dede9c6e59738",
+  "repository": "https://github.com/Ben-Scr/BenScr.Random",
+  "frameworks": [
+    "net9.0",
+    "net10.0"
+  ],
+  "runtime_dependencies": [],
+  "publication": "not_published",
+  "evidence": "tools/Verify.ps1 writes actual run results and hashes to artifacts/verification-*/release-manifest.json",
+  "local_tests": {
+    "failed": 0,
+    "net10": 57,
+    "net9": 57,
+    "skipped": 0
+  }
+}
